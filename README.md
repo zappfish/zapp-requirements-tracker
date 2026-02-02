@@ -1,7 +1,7 @@
 # ZAPP Requirements Tracker
 Requirements tracker for the Zebrafish Phenotype Atlas Project
 
-This repository is for tracking and planning requirements for ZAPP.
+This repository is for tracking and planning requirements for ZAPP. A project board version of this repo is found [here](https://github.com/orgs/zappfish/projects/2/views/6). 
 
 **Project Title:** Advancing a community-led zebrafish toxicology phenotype atlas <br>
 **Grant Number:** NIEHS 1R24ES036130 <br>
