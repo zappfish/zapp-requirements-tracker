@@ -44,17 +44,17 @@ graph LR
 graph TD
     ZAPP["ZAPP"]
 
-    R1["#16"]:::backlog
-    R2["#15"]:::backlog
-    R3["#32"]:::backlog
+    R1["#16"]:::inprogress
+    R2["#15"]:::inprogress
+    R3["#32"]:::upnext
     R4["#44"]:::backlog
     R5["#49"]:::backlog
     R6["#72"]:::backlog
-    R7["#94"]:::backlog
+    R7["#94"]:::inprogress
 
     ZAPP --> R1 & R2 & R3 & R4 & R5 & R6 & R7
 
-    R1A["#17"]:::backlog
+    R1A["#17"]:::stable
     R1B["#26"]:::backlog
     R1 --> R1A & R1B
 
@@ -63,8 +63,8 @@ graph TD
     R2 --> R2A & R2B
 
     R3A["#33"]:::backlog
-    R3B["#36"]:::backlog
-    R3C["#42"]:::backlog
+    R3B["#36"]:::upnext
+    R3C["#42"]:::upnext
     R3 --> R3A & R3B & R3C
 
     R4A["#45"]:::backlog
@@ -88,7 +88,7 @@ graph TD
     R7B["#96"]:::backlog
     R7C["#97"]:::backlog
     R7D["#98"]:::backlog
-    R7E["#99"]:::backlog
+    R7E["#99"]:::inprogress
     R7 --> R7A & R7B & R7C & R7D & R7E
 
     click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
@@ -134,17 +134,17 @@ graph TD
 
 ```mermaid
 graph TD
-    R1["#16"]:::backlog
+    R1["#16"]:::inprogress
 
-    R1A["#17"]:::backlog
+    R1A["#17"]:::stable
     R1B["#26"]:::backlog
     R1 --> R1A & R1B
 
-    R1A1["#18"]:::backlog
-    R1A2["#19"]:::backlog
-    R1A3["#20"]:::backlog
-    R1A4["#21"]:::backlog
-    R1A5["#22"]:::backlog
+    R1A1["#18"]:::stable
+    R1A2["#19"]:::stable
+    R1A3["#20"]:::stable
+    R1A4["#21"]:::stable
+    R1A5["#22"]:::stable
     R1A6["#23"]:::inprogress
     R1A7["#24"]:::inprogress
     R1A8["#25"]:::inprogress
@@ -186,22 +186,22 @@ graph TD
 
 ```mermaid
 graph TD
-    R2["#15"]:::backlog
+    R2["#15"]:::inprogress
 
     R2A["#1"]:::backlog
     R2B["#6"]:::backlog
     R2 --> R2A & R2B
 
-    R2A1["#2"]:::backlog
-    R2A2["#3"]:::backlog
+    R2A1["#2"]:::upnext
+    R2A2["#3"]:::upnext
     R2A3["#4"]:::backlog
-    R2A4["#5"]:::backlog
+    R2A4["#5"]:::stable
     R2A --> R2A1 & R2A2 & R2A3 & R2A4
 
     R2B1["#7"]:::backlog
-    R2B2["#8"]:::backlog
-    R2B3["#9"]:::backlog
-    R2B4["#10"]:::backlog
+    R2B2["#8"]:::inreview
+    R2B3["#9"]:::stable
+    R2B4["#10"]:::stable
     R2B5["#11"]:::backlog
     R2B6["#12"]:::backlog
     R2B --> R2B1 & R2B2 & R2B3 & R2B4 & R2B5 & R2B6
@@ -238,25 +238,25 @@ graph TD
 
 ```mermaid
 graph TD
-    R3["#32"]:::backlog
+    R3["#32"]:::upnext
 
     R3A["#33"]:::backlog
-    R3B["#36"]:::backlog
-    R3C["#42"]:::backlog
+    R3B["#36"]:::upnext
+    R3C["#42"]:::upnext
     R3 --> R3A & R3B & R3C
 
     R3A1["#34"]:::backlog
     R3A2["#35"]:::backlog
     R3A --> R3A1 & R3A2
 
-    R3B1["#37"]:::backlog
+    R3B1["#37"]:::upnext
     R3B2["#38"]:::backlog
     R3B3["#39"]:::backlog
-    R3B4["#40"]:::backlog
+    R3B4["#40"]:::upnext
     R3B5["#41"]:::backlog
     R3B --> R3B1 & R3B2 & R3B3 & R3B4 & R3B5
 
-    R3C1["#43"]:::backlog
+    R3C1["#43"]:::upnext
     R3C --> R3C1
 
     click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
@@ -443,13 +443,13 @@ graph TD
 
 ```mermaid
 graph TD
-    R7["#94"]:::backlog
+    R7["#94"]:::inprogress
 
     R7A["#95"]:::backlog
     R7B["#96"]:::backlog
     R7C["#97"]:::backlog
     R7D["#98"]:::backlog
-    R7E["#99"]:::backlog
+    R7E["#99"]:::inprogress
     R7 --> R7A & R7B & R7C & R7D & R7E
 
     R7A1["#100"]:::backlog
