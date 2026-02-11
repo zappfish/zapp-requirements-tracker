@@ -1,5 +1,7 @@
 # ZAPP Implementation Plan
 
+> 🤖 Generated with support from Claude AI. This is not set in stone and meant to be a support for planning. Connect with Sarah with any concerns. 
+> 
 > Suggested task ordering, architecture recommendations, and priority assignments for the Zebrafish Phenotype Atlas Project (ZAPP).
 >
 > **Source issues:** [#16](https://github.com/zappfish/zapp-requirements-tracker/issues/16) (Data Model), [#15](https://github.com/zappfish/zapp-requirements-tracker/issues/15) (Ontologies), [#32](https://github.com/zappfish/zapp-requirements-tracker/issues/32) (Data Storage), [#44](https://github.com/zappfish/zapp-requirements-tracker/issues/44) (Publish Data), [#49](https://github.com/zappfish/zapp-requirements-tracker/issues/49) (Data Input), [#72](https://github.com/zappfish/zapp-requirements-tracker/issues/72) (Atlas UI)
