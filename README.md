@@ -386,7 +386,6 @@ graph TD
 ## Network Diagram
 
 ```mermaid
-%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 graph LR
     subgraph col0[" "]
         Start(["Start"])
