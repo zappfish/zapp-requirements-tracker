@@ -380,3 +380,59 @@ graph TD
     classDef stable fill:#bf3989,stroke:#99306f,color:#fff
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
+
+---
+
+## Network Diagram
+
+```mermaid
+graph LR
+    subgraph col0[" "]
+        Start(["Start"])
+    end
+    subgraph col1[" "]
+        R1["1: Data Model"]
+        R2["2: Ontologies / External IDs"]
+        R3["3: Data Storage / Retrieval"]
+    end
+    subgraph col2[" "]
+        FF(["Foundations Finished"])
+    end
+    subgraph col3[" "]
+        R4["4: Publish Data"]
+        R5["5: Data Input / Submission"]
+        R6["6: Atlas / Atlas UI"]
+    end
+    subgraph col4[" "]
+        Finish(["Finish"])
+    end
+
+    Start --> R1
+    Start --> R2
+    Start --> R3
+
+    R1 --> FF
+    R2 --> FF
+    R3 --> FF
+
+    FF --> R4
+    FF --> R5
+    FF --> R6
+
+    R4 --> Finish
+    R5 --> Finish
+    R6 --> Finish
+
+    style col0 fill:none,stroke:none
+    style col1 fill:none,stroke:none
+    style col2 fill:none,stroke:none
+    style col3 fill:none,stroke:none
+    style col4 fill:none,stroke:none
+
+    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
+    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
+    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
+    click R4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/44" _blank
+    click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
+    click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
+```
