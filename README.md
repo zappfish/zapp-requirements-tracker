@@ -387,25 +387,61 @@ graph TD
 
 ```mermaid
 graph LR
-    Start(["Start"])
+    subgraph col0[" "]
+        Start(["Start"])
+    end
+    subgraph col1[" "]
+        R1["1: Data Model"]
+        R2["2: Ontologies / External IDs"]
+        R3["3: Data Storage / Retrieval"]
+    end
+    subgraph col2[" "]
+        R1A["1A"]
+        R2A["2A"]
+        R2B["2B"]
+        R3B["3B"]
+        R3C["3C"]
+    end
+    subgraph col3[" "]
+        R1B["1B"]
+        R3A["3A"]
+    end
+    subgraph col4[" "]
+        R5["5: Data Input / Submission"]
+        R6["6: Atlas / Atlas UI"]
+    end
+    subgraph col5[" "]
+        R5A["5A"]
+        R5B["5B"]
+        R5C["5C"]
+        R5D["5D"]
+        R6A["6A"]
+        R6B["6B"]
+        R6C["6C"]
+        R6D["6D"]
+        R6E["6E"]
+    end
+    subgraph col6[" "]
+        Finish(["Finish"])
+    end
 
-    Start --> R1["1: Data Model"]
-    Start --> R2["2: Ontologies / External IDs"]
-    Start --> R3["3: Data Storage / Retrieval"]
+    Start --> R1
+    Start --> R2
+    Start --> R3
 
-    R1 --> R1A["1A"]
-    R1A --> R1B["1B"]
+    R1 --> R1A
+    R1A --> R1B
 
-    R2 --> R2A["2A"]
-    R2 --> R2B["2B"]
+    R2 --> R2A
+    R2 --> R2B
 
-    R3 --> R3B["3B"]
-    R3 --> R3C["3C"]
-    R3B --> R3A["3A"]
+    R3 --> R3B
+    R3 --> R3C
+    R3B --> R3A
     R3C --> R3A
 
-    R1B --> R5["5: Data Input / Submission"]
-    R1B --> R6["6: Atlas / Atlas UI"]
+    R1B --> R5
+    R1B --> R6
     R2A --> R5
     R2A --> R6
     R2B --> R5
@@ -413,18 +449,18 @@ graph LR
     R3A --> R5
     R3A --> R6
 
-    R5 --> R5A["5A"]
-    R5 --> R5B["5B"]
-    R5 --> R5C["5C"]
-    R5 --> R5D["5D"]
+    R5 --> R5A
+    R5 --> R5B
+    R5 --> R5C
+    R5 --> R5D
 
-    R6 --> R6A["6A"]
-    R6 --> R6B["6B"]
-    R6 --> R6C["6C"]
-    R6 --> R6D["6D"]
-    R6 --> R6E["6E"]
+    R6 --> R6A
+    R6 --> R6B
+    R6 --> R6C
+    R6 --> R6D
+    R6 --> R6E
 
-    R5A --> Finish(["Finish"])
+    R5A --> Finish
     R5B --> Finish
     R5C --> Finish
     R5D --> Finish
@@ -434,6 +470,24 @@ graph LR
     R6D --> Finish
     R6E --> Finish
 
+    style col0 fill:none,stroke:none
+    style col1 fill:none,stroke:none
+    style col2 fill:none,stroke:none
+    style col3 fill:none,stroke:none
+    style col4 fill:none,stroke:none
+    style col5 fill:none,stroke:none
+    style col6 fill:none,stroke:none
+
+    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
+    click R1A href "https://github.com/zappfish/zapp-requirements-tracker/issues/17" _blank
+    click R1B href "https://github.com/zappfish/zapp-requirements-tracker/issues/26" _blank
+    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
+    click R2A href "https://github.com/zappfish/zapp-requirements-tracker/issues/1" _blank
+    click R2B href "https://github.com/zappfish/zapp-requirements-tracker/issues/6" _blank
+    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
+    click R3A href "https://github.com/zappfish/zapp-requirements-tracker/issues/33" _blank
+    click R3B href "https://github.com/zappfish/zapp-requirements-tracker/issues/36" _blank
+    click R3C href "https://github.com/zappfish/zapp-requirements-tracker/issues/42" _blank
     click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
     click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
     click R5A href "https://github.com/zappfish/zapp-requirements-tracker/issues/50" _blank
@@ -445,14 +499,4 @@ graph LR
     click R6C href "https://github.com/zappfish/zapp-requirements-tracker/issues/75" _blank
     click R6D href "https://github.com/zappfish/zapp-requirements-tracker/issues/76" _blank
     click R6E href "https://github.com/zappfish/zapp-requirements-tracker/issues/77" _blank
-    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
-    click R1A href "https://github.com/zappfish/zapp-requirements-tracker/issues/17" _blank
-    click R1B href "https://github.com/zappfish/zapp-requirements-tracker/issues/26" _blank
-    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
-    click R2A href "https://github.com/zappfish/zapp-requirements-tracker/issues/1" _blank
-    click R2B href "https://github.com/zappfish/zapp-requirements-tracker/issues/6" _blank
-    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
-    click R3A href "https://github.com/zappfish/zapp-requirements-tracker/issues/33" _blank
-    click R3B href "https://github.com/zappfish/zapp-requirements-tracker/issues/36" _blank
-    click R3C href "https://github.com/zappfish/zapp-requirements-tracker/issues/42" _blank
 ```
