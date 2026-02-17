@@ -389,23 +389,23 @@ graph TD
 graph LR
     Start(["Start"])
 
-    Start --> R1["#16 Data Model"]
-    Start --> R2["#15 Ontologies / External IDs"]
-    Start --> R3["#32 Data Storage / Retrieval"]
+    Start --> R1["1: Data Model"]
+    Start --> R2["2: Ontologies / External IDs"]
+    Start --> R3["3: Data Storage / Retrieval"]
 
-    R1 --> R1A["#17"]
-    R1A --> R1B["#26"]
+    R1 --> R1A["1A"]
+    R1A --> R1B["1B"]
 
-    R2 --> R2A["#1"]
-    R2 --> R2B["#6"]
+    R2 --> R2A["2A"]
+    R2 --> R2B["2B"]
 
-    R3 --> R3B["#36"]
-    R3 --> R3C["#42"]
-    R3B --> R3A["#33"]
+    R3 --> R3B["3B"]
+    R3 --> R3C["3C"]
+    R3B --> R3A["3A"]
     R3C --> R3A
 
-    R1B --> R5["#49 Data Input / Submission"]
-    R1B --> R6["#72 Atlas / Atlas UI"]
+    R1B --> R5["5: Data Input / Submission"]
+    R1B --> R6["6: Atlas / Atlas UI"]
     R2A --> R5
     R2A --> R6
     R2B --> R5
@@ -413,16 +413,16 @@ graph LR
     R3A --> R5
     R3A --> R6
 
-    R5 --> R5A["#50"]
-    R5 --> R5B["#51"]
-    R5 --> R5C["#67"]
-    R5 --> R5D["#70"]
+    R5 --> R5A["5A"]
+    R5 --> R5B["5B"]
+    R5 --> R5C["5C"]
+    R5 --> R5D["5D"]
 
-    R6 --> R6A["#73"]
-    R6 --> R6B["#74"]
-    R6 --> R6C["#75"]
-    R6 --> R6D["#76"]
-    R6 --> R6E["#77"]
+    R6 --> R6A["6A"]
+    R6 --> R6B["6B"]
+    R6 --> R6C["6C"]
+    R6 --> R6D["6D"]
+    R6 --> R6E["6E"]
 
     R5A --> Finish(["Finish"])
     R5B --> Finish
