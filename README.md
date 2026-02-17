@@ -380,3 +380,79 @@ graph TD
     classDef stable fill:#bf3989,stroke:#99306f,color:#fff
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
+
+---
+
+## Network Diagram
+
+```mermaid
+graph LR
+    Start(["Start"])
+
+    Start --> R1["#16 Data Model"]
+    Start --> R2["#15 Ontologies / External IDs"]
+    Start --> R3["#32 Data Storage / Retrieval"]
+
+    R1 --> R1A["#17"]
+    R1A --> R1B["#26"]
+
+    R2 --> R2A["#1"]
+    R2 --> R2B["#6"]
+
+    R3 --> R3B["#36"]
+    R3 --> R3C["#42"]
+    R3B --> R3A["#33"]
+    R3C --> R3A
+
+    R1B --> R5["#49 Data Input / Submission"]
+    R1B --> R6["#72 Atlas / Atlas UI"]
+    R2A --> R5
+    R2A --> R6
+    R2B --> R5
+    R2B --> R6
+    R3A --> R5
+    R3A --> R6
+
+    R5 --> R5A["#50"]
+    R5 --> R5B["#51"]
+    R5 --> R5C["#67"]
+    R5 --> R5D["#70"]
+
+    R6 --> R6A["#73"]
+    R6 --> R6B["#74"]
+    R6 --> R6C["#75"]
+    R6 --> R6D["#76"]
+    R6 --> R6E["#77"]
+
+    R5A --> Finish(["Finish"])
+    R5B --> Finish
+    R5C --> Finish
+    R5D --> Finish
+    R6A --> Finish
+    R6B --> Finish
+    R6C --> Finish
+    R6D --> Finish
+    R6E --> Finish
+
+    click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
+    click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
+    click R5A href "https://github.com/zappfish/zapp-requirements-tracker/issues/50" _blank
+    click R5B href "https://github.com/zappfish/zapp-requirements-tracker/issues/51" _blank
+    click R5C href "https://github.com/zappfish/zapp-requirements-tracker/issues/67" _blank
+    click R5D href "https://github.com/zappfish/zapp-requirements-tracker/issues/70" _blank
+    click R6A href "https://github.com/zappfish/zapp-requirements-tracker/issues/73" _blank
+    click R6B href "https://github.com/zappfish/zapp-requirements-tracker/issues/74" _blank
+    click R6C href "https://github.com/zappfish/zapp-requirements-tracker/issues/75" _blank
+    click R6D href "https://github.com/zappfish/zapp-requirements-tracker/issues/76" _blank
+    click R6E href "https://github.com/zappfish/zapp-requirements-tracker/issues/77" _blank
+    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
+    click R1A href "https://github.com/zappfish/zapp-requirements-tracker/issues/17" _blank
+    click R1B href "https://github.com/zappfish/zapp-requirements-tracker/issues/26" _blank
+    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
+    click R2A href "https://github.com/zappfish/zapp-requirements-tracker/issues/1" _blank
+    click R2B href "https://github.com/zappfish/zapp-requirements-tracker/issues/6" _blank
+    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
+    click R3A href "https://github.com/zappfish/zapp-requirements-tracker/issues/33" _blank
+    click R3B href "https://github.com/zappfish/zapp-requirements-tracker/issues/36" _blank
+    click R3C href "https://github.com/zappfish/zapp-requirements-tracker/issues/42" _blank
+```
