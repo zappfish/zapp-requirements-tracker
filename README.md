@@ -396,11 +396,14 @@ graph LR
         R3["3: Data Storage / Retrieval"]
     end
     subgraph col2[" "]
+        FF(["Foundations Finished"])
+    end
+    subgraph col3[" "]
         R4["4: Publish Data"]
         R5["5: Data Input / Submission"]
         R6["6: Atlas / Atlas UI"]
     end
-    subgraph col3[" "]
+    subgraph col4[" "]
         Finish(["Finish"])
     end
 
@@ -408,15 +411,13 @@ graph LR
     Start --> R2
     Start --> R3
 
-    R1 --> R4
-    R1 --> R5
-    R1 --> R6
-    R2 --> R4
-    R2 --> R5
-    R2 --> R6
-    R3 --> R4
-    R3 --> R5
-    R3 --> R6
+    R1 --> FF
+    R2 --> FF
+    R3 --> FF
+
+    FF --> R4
+    FF --> R5
+    FF --> R6
 
     R4 --> Finish
     R5 --> Finish
@@ -426,6 +427,7 @@ graph LR
     style col1 fill:none,stroke:none
     style col2 fill:none,stroke:none
     style col3 fill:none,stroke:none
+    style col4 fill:none,stroke:none
 
     click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
     click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
