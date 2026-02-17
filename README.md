@@ -20,9 +20,10 @@ All actual project work should live in the appropriate repository such as:
 
 ---
 
-## Status Color Legend
+## Work Breakdown Structure (WBS)
+This project operates using a hybrid project management style. For a quick overview of requirements progress, see the WBS visuals below. Box colors in the WBS diagrams correspond to the status colors from the ZAPP Requirements Project Board and are updated approximately weekly. There are seven high-level requirements, each broken down into sub-requirements. These seven requirements, and their sub-requirements, have interdependencies that are factored into their prioritization for delivering a Submission Form and Atlas MVP (minimum viable product).
 
-> Box colors in the WBS diagrams below match the status colors from the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6).
+### Status Color Legend
 
 ```mermaid
 graph LR
@@ -36,99 +37,6 @@ graph LR
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-## Work Breakdown Structure
-
-### Overview
-
-```mermaid
-graph TD
-    ZAPP["ZAPP"]
-
-    R1["#16"]:::inprogress
-    R2["#15"]:::inprogress
-    R3["#32"]:::upnext
-    R4["#44"]:::backlog
-    R5["#49"]:::backlog
-    R6["#72"]:::backlog
-    R7["#94"]:::inprogress
-
-    ZAPP --> R1 & R2 & R3 & R4 & R5 & R6 & R7
-
-    R1A["#17"]:::stable
-    R1B["#26"]:::backlog
-    R1 --> R1A & R1B
-
-    R2A["#1"]:::backlog
-    R2B["#6"]:::backlog
-    R2 --> R2A & R2B
-
-    R3A["#33"]:::backlog
-    R3B["#36"]:::upnext
-    R3C["#42"]:::upnext
-    R3 --> R3A & R3B & R3C
-
-    R4A["#45"]:::backlog
-    R4B["#46"]:::backlog
-    R4 --> R4A & R4B
-
-    R5A["#50"]:::backlog
-    R5B["#51"]:::backlog
-    R5C["#67"]:::backlog
-    R5D["#70"]:::backlog
-    R5 --> R5A & R5B & R5C & R5D
-
-    R6A["#73"]:::backlog
-    R6B["#74"]:::backlog
-    R6C["#75"]:::backlog
-    R6D["#76"]:::backlog
-    R6E["#77"]:::backlog
-    R6 --> R6A & R6B & R6C & R6D & R6E
-
-    R7A["#95"]:::backlog
-    R7B["#96"]:::backlog
-    R7C["#97"]:::backlog
-    R7D["#98"]:::backlog
-    R7E["#99"]:::inprogress
-    R7 --> R7A & R7B & R7C & R7D & R7E
-
-    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
-    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
-    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
-    click R4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/44" _blank
-    click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
-    click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
-    click R7 href "https://github.com/zappfish/zapp-requirements-tracker/issues/94" _blank
-    click R1A href "https://github.com/zappfish/zapp-requirements-tracker/issues/17" _blank
-    click R1B href "https://github.com/zappfish/zapp-requirements-tracker/issues/26" _blank
-    click R2A href "https://github.com/zappfish/zapp-requirements-tracker/issues/1" _blank
-    click R2B href "https://github.com/zappfish/zapp-requirements-tracker/issues/6" _blank
-    click R3A href "https://github.com/zappfish/zapp-requirements-tracker/issues/33" _blank
-    click R3B href "https://github.com/zappfish/zapp-requirements-tracker/issues/36" _blank
-    click R3C href "https://github.com/zappfish/zapp-requirements-tracker/issues/42" _blank
-    click R4A href "https://github.com/zappfish/zapp-requirements-tracker/issues/45" _blank
-    click R4B href "https://github.com/zappfish/zapp-requirements-tracker/issues/46" _blank
-    click R5A href "https://github.com/zappfish/zapp-requirements-tracker/issues/50" _blank
-    click R5B href "https://github.com/zappfish/zapp-requirements-tracker/issues/51" _blank
-    click R5C href "https://github.com/zappfish/zapp-requirements-tracker/issues/67" _blank
-    click R5D href "https://github.com/zappfish/zapp-requirements-tracker/issues/70" _blank
-    click R6A href "https://github.com/zappfish/zapp-requirements-tracker/issues/73" _blank
-    click R6B href "https://github.com/zappfish/zapp-requirements-tracker/issues/74" _blank
-    click R6C href "https://github.com/zappfish/zapp-requirements-tracker/issues/75" _blank
-    click R6D href "https://github.com/zappfish/zapp-requirements-tracker/issues/76" _blank
-    click R6E href "https://github.com/zappfish/zapp-requirements-tracker/issues/77" _blank
-    click R7A href "https://github.com/zappfish/zapp-requirements-tracker/issues/95" _blank
-    click R7B href "https://github.com/zappfish/zapp-requirements-tracker/issues/96" _blank
-    click R7C href "https://github.com/zappfish/zapp-requirements-tracker/issues/97" _blank
-    click R7D href "https://github.com/zappfish/zapp-requirements-tracker/issues/98" _blank
-    click R7E href "https://github.com/zappfish/zapp-requirements-tracker/issues/99" _blank
-
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
-    classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
-    classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
-    classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
-```
 
 ### 1: Data Model
 
