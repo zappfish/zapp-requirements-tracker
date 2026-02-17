@@ -407,6 +407,7 @@ graph LR
         R3A["3A"]
     end
     subgraph col4[" "]
+        R4["4: Publish Data"]
         R5["5: Data Input / Submission"]
         R6["6: Atlas / Atlas UI"]
     end
@@ -415,6 +416,8 @@ graph LR
         R5B["5B"]
         R5C["5C"]
         R5D["5D"]
+        R4A["4A"]
+        R4B["4B"]
         R6A["6A"]
         R6B["6B"]
         R6C["6C"]
@@ -440,12 +443,16 @@ graph LR
     R3B --> R3A
     R3C --> R3A
 
+    R1B --> R4
     R1B --> R5
     R1B --> R6
+    R2A --> R4
     R2A --> R5
     R2A --> R6
+    R2B --> R4
     R2B --> R5
     R2B --> R6
+    R3A --> R4
     R3A --> R5
     R3A --> R6
 
@@ -454,12 +461,17 @@ graph LR
     R5 --> R5C
     R5 --> R5D
 
+    R4 --> R4A
+    R4 --> R4B
+
     R6 --> R6A
     R6 --> R6B
     R6 --> R6C
     R6 --> R6D
     R6 --> R6E
 
+    R4A --> Finish
+    R4B --> Finish
     R5A --> Finish
     R5B --> Finish
     R5C --> Finish
@@ -488,6 +500,9 @@ graph LR
     click R3A href "https://github.com/zappfish/zapp-requirements-tracker/issues/33" _blank
     click R3B href "https://github.com/zappfish/zapp-requirements-tracker/issues/36" _blank
     click R3C href "https://github.com/zappfish/zapp-requirements-tracker/issues/42" _blank
+    click R4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/44" _blank
+    click R4A href "https://github.com/zappfish/zapp-requirements-tracker/issues/45" _blank
+    click R4B href "https://github.com/zappfish/zapp-requirements-tracker/issues/46" _blank
     click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
     click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
     click R5A href "https://github.com/zappfish/zapp-requirements-tracker/issues/50" _blank
