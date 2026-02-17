@@ -27,7 +27,7 @@ This project operates using a **hybrid project management style**. There are sev
 - The assigned person/people on each requirement ticket are who we go to if there are questions about a requirement, whether in development or stable.
 - The [ZAPP Task Tracker](https://github.com/orgs/zappfish/projects/1) is for tracking the detailed activities/tasks which are the actual work to complete each requirement.
 - Tickets for actual work (found in the other repos listed above) should include a comment referencing the relevant requirement ticket, making it easy to track progress against each requirement.
-- See the **Schedule Network Diagram** below for a high level view of the ZAPP Development workflow. There are nuances to this workflow which are found in the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6).
+- See the **Schedule Network Diagram** below for a high level view of the ZAPP Development schedule. There are nuances to this workflow which are found in the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6).
 - For a quick overview of requirements progress, see the **Work Breakdown Structure (WBS) visuals** below. Box colors in the WBS diagrams correspond to the status colors from the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6) and are updated approximately weekly to reflect the latest status.
 
 ### Project Personnel & Roles
