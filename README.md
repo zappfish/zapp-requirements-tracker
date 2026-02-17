@@ -19,11 +19,93 @@ All actual project work should live in the appropriate repository such as:
 - https://github.com/zappfish/zappfish.github.io
 
 ---
+## Project Management Plan
+This project operates using a **hybrid project management style**. There are seven high-level requirements, as determined by the team, with each broken down into sub-requirements. These seven requirements, and their sub-requirements, have interdependencies that are factored into their prioritization for delivering a Submission Form and Atlas MVP (minimum viable product). 
+- We operate on a **two week iteration** schedule with planning and check-in meetings weekly.
+- The [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6) is where we track the requirements. This repository and it's tickets can also be used for documenting planning and resons behind decisions, as needed, but is not used for project work.
+- When a requirement ticket is listed as "Stable" this means it's ready to be used for any further development that depends on this requirement. As a team, we understand "Stable" means the requirement may need to be tweeked as future development happens, however a baseline is complete and ready to be used.
+- The assigned person/people on each requirement ticket are who we go to if there are questions about a requirement, whether in development or stable.
+- The [ZAPP Task Tracker](https://github.com/orgs/zappfish/projects/1) is for tracking the detailed activities/tasks which are the actual work to complete each requirement.
+- Tickets for actual work (found in the other repos listed above) should include a comment referencing the relevant requirement ticket, making it easy to track progress against each requirement.
+- See the **Schedule Network Diagram** below for a high level view of the ZAPP Development workflow. There are nuances to this workflow which are found in the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6).
+- For a quick overview of requirements progress, see the **Work Breakdown Structure (WBS) visuals** below. Box colors in the WBS diagrams correspond to the status colors from the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6) and are updated approximately weekly to reflect the latest status.
 
-## Work Breakdown Structure (WBS)
-This project operates using a hybrid project management style. For a quick overview of requirements progress, see the WBS visuals below. Box colors in the WBS diagrams correspond to the status colors from the ZAPP Requirements Project Board and are updated approximately weekly. There are seven high-level requirements, each broken down into sub-requirements. These seven requirements, and their sub-requirements, have interdependencies that are factored into their prioritization for delivering a Submission Form and Atlas MVP (minimum viable product).
+### Project Personnel & Roles
 
-### Status Color Legend
+| Name | Role |
+|------|------|
+| Sabrina Toro | Contact PI |
+| Alexa Burger | PI |
+| Patrick Golden | Technical Development Lead |
+| Kevin Schaper | Tech Development & Advisor |
+| Aaron Odell | Technical Development |
+| Mee Siing Ngu | Curation, Ontology Development |
+| Raeden Gray | Wet Lab Scientist, Curation |
+| Sarah Gehrke | Project Manager |
+| Jonathan Hamm | Advisor, Outreach |
+| Anne Thessen | Advisor, Governance |
+| Melissa Haendel | Advisor |
+
+---
+### Schedule Network Diagram
+
+```mermaid
+graph LR
+    subgraph col0[" "]
+        Start(["Start"])
+    end
+    subgraph col1[" "]
+        R1["1: Data Model"]
+        R2["2: Ontologies / External IDs"]
+        R3["3: Data Storage / Retrieval"]
+    end
+    subgraph col2[" "]
+        FF(["Foundations Finished"])
+    end
+    subgraph col3[" "]
+        R4["4: Publish Data"]
+        R5["5: Data Input / Submission"]
+        R6["6: Atlas / Atlas UI"]
+    end
+    subgraph col4[" "]
+        Finish(["Finish"])
+    end
+
+    Start --> R1
+    Start --> R2
+    Start --> R3
+
+    R1 --> FF
+    R2 --> FF
+    R3 --> FF
+
+    FF --> R4
+    FF --> R5
+    FF --> R6
+
+    R4 --> Finish
+    R5 --> Finish
+    R6 --> Finish
+
+    style col0 fill:none,stroke:none
+    style col1 fill:none,stroke:none
+    style col2 fill:none,stroke:none
+    style col3 fill:none,stroke:none
+    style col4 fill:none,stroke:none
+
+    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
+    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
+    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
+    click R4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/44" _blank
+    click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
+    click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
+```
+While critical for project success, the _Governace_ and _Project Website_ are not indicated in this diagram since they is not directly related to the Form and Atlas development. For information on these items see [here](https://github.com/zappfish/zapp-requirements-tracker/issues/94).
+
+---
+### Work Breakdown Structure (WBS)
+
+#### Status Color Legend
 
 ```mermaid
 graph LR
@@ -38,7 +120,7 @@ graph LR
 ```
 
 
-### 1: Data Model
+#### 1: Data Model
 
 ```mermaid
 graph TD
@@ -90,7 +172,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 2: Ontologies / External IDs
+#### 2: Ontologies / External IDs
 
 ```mermaid
 graph TD
@@ -142,7 +224,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 3: Data Storage / Retrieval
+#### 3: Data Storage / Retrieval
 
 ```mermaid
 graph TD
@@ -188,7 +270,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 4: Publish Data
+#### 4: Publish Data
 
 ```mermaid
 graph TD
@@ -216,7 +298,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 5: Data Input / Submission
+#### 5: Data Input / Submission
 
 ```mermaid
 graph TD
@@ -281,7 +363,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 6: Atlas / Atlas UI
+#### 6: Atlas / Atlas UI
 
 ```mermaid
 graph TD
@@ -347,7 +429,7 @@ graph TD
     classDef done fill:#bc4c00,stroke:#953800,color:#fff
 ```
 
-### 7: Governance
+#### 7: Governance
 
 ```mermaid
 graph TD
@@ -383,56 +465,3 @@ graph TD
 
 ---
 
-## Network Diagram
-
-```mermaid
-graph LR
-    subgraph col0[" "]
-        Start(["Start"])
-    end
-    subgraph col1[" "]
-        R1["1: Data Model"]
-        R2["2: Ontologies / External IDs"]
-        R3["3: Data Storage / Retrieval"]
-    end
-    subgraph col2[" "]
-        FF(["Foundations Finished"])
-    end
-    subgraph col3[" "]
-        R4["4: Publish Data"]
-        R5["5: Data Input / Submission"]
-        R6["6: Atlas / Atlas UI"]
-    end
-    subgraph col4[" "]
-        Finish(["Finish"])
-    end
-
-    Start --> R1
-    Start --> R2
-    Start --> R3
-
-    R1 --> FF
-    R2 --> FF
-    R3 --> FF
-
-    FF --> R4
-    FF --> R5
-    FF --> R6
-
-    R4 --> Finish
-    R5 --> Finish
-    R6 --> Finish
-
-    style col0 fill:none,stroke:none
-    style col1 fill:none,stroke:none
-    style col2 fill:none,stroke:none
-    style col3 fill:none,stroke:none
-    style col4 fill:none,stroke:none
-
-    click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
-    click R2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/15" _blank
-    click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
-    click R4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/44" _blank
-    click R5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/49" _blank
-    click R6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/72" _blank
-```
