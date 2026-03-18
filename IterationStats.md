@@ -20,7 +20,7 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
 | Iteration Number | Iteration Start Date | Iteration End Date | XS | S | M | L | XL | ~ Velocity (days) |
 | -- | -- | -- | -- | -- |--  | -- |--  |--|
 | 1 | February 18, 2026 | March 3, 2026  | 2 |0  |1  |3  |0  | 15-19
-| 2 | March 4, 2026 | March 17, 2026  |  |  |  |  |  |
+| 2 | March 4, 2026 | March 17, 2026  | 2 | 4 | 5 | 0 | 1 | 21-30
 | 3 | March 18, 2026 | March 31, 2026  |  |  |  |  |  |
 | 4 | April 1, 2026 | April 14, 2026  |  |  |  |  |  |
 | 5 | April 15, 2026 | April 28, 2026  |  |  |  |  |  |
@@ -33,6 +33,6 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
 xychart-beta
     title "Iteration Velocity Over Time"
     x-axis "Iteration" ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-    y-axis "Velocity" 0 --> 20
-    bar [17, 0, 0, 0, 0, 0, 0, 0, 0]
+    y-axis "Velocity" 0 --> 30
+    bar [17, 25.5, 0, 0, 0, 0, 0, 0, 0]
 ```
