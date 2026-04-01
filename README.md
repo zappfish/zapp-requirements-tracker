@@ -30,6 +30,11 @@ This project operates using a **hybrid project management style**. There are sev
 - See the **Schedule Network Diagram** below for a high level view of the ZAPP Development schedule. There are nuances to this workflow which are found in the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6).
 - For a quick overview of requirements progress, see the **Work Breakdown Structure (WBS) visuals** below. Box colors in the WBS diagrams correspond to the status colors from the [ZAPP Requirements Project Board](https://github.com/orgs/zappfish/projects/2/views/6) and are updated approximately weekly to reflect the latest status.
 
+### Notes About Curators and Lab Personnel
+- Curators and Lab Personnel also work on 2 week iterations, however, they are on opposite weeks from the technical team. This is to allow time for the curators to address technical team ontology needs and to have more time for back and forth feedback about data before a developer iteration is complete. 
+- The Curator and Lab Team has a fortnightly meeting to focus on curation, ontology, or laboratory topics. Developers can also join this call to ask questions from this team as our subject matter experts.
+- Task trackers, requirements and schedule diagrams listed above all apply to the Curators and Lab personnel.
+
 ### Project Personnel & Roles
 
 | Name | Role |
@@ -37,7 +42,7 @@ This project operates using a **hybrid project management style**. There are sev
 | Sabrina Toro | Contact PI |
 | Alexa Burger | PI |
 | Patrick Golden | Technical Development Lead |
-| Kevin Schaper | Tech Development & Advisor |
+| Kevin Schaper | Technical Development & Advisor |
 | Aaron Odell | Technical Development |
 | Mee Siing Ngu | Curation, Ontology Development |
 | Raeden Gray | Wet Lab Scientist, Curation |
