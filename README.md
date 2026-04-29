@@ -143,7 +143,7 @@ graph TD
     R1A3["#20"]:::stable
     R1A4["#21"]:::stable
     R1A5["#22"]:::stable
-    R1A6["#23"]:::inprogress
+    R1A6["#23"]:::stable
     R1A7["#24"]:::inprogress
     R1A8["#25"]:::inprogress
     R1A --> R1A1 & R1A2 & R1A3 & R1A4 & R1A5 & R1A6 & R1A7 & R1A8
@@ -186,25 +186,25 @@ graph TD
 graph TD
     R2["#15"]:::inprogress
 
-    R2A["#1"]:::backlog
+    R2A["#1"]:::upnext
     R2B["#6"]:::backlog
     R2 --> R2A & R2B
 
-    R2A1["#2"]:::upnext
+    R2A1["#2"]:::inprogress
     R2A2["#3"]:::upnext
     R2A3["#4"]:::backlog
     R2A4["#5"]:::stable
     R2A --> R2A1 & R2A2 & R2A3 & R2A4
 
-    R2B1["#7"]:::backlog
-    R2B2["#8"]:::inreview
+    R2B1["#7"]:::inprogress
+    R2B2["#8"]:::stable
     R2B3["#9"]:::stable
     R2B4["#10"]:::stable
-    R2B5["#11"]:::backlog
+    R2B5["#11"]:::upnext
     R2B6["#12"]:::backlog
     R2B --> R2B1 & R2B2 & R2B3 & R2B4 & R2B5 & R2B6
 
-    R2B6A["#13"]:::backlog
+    R2B6A["#13"]:::upnext
     R2B6B["#14"]:::backlog
     R2B6 --> R2B6A & R2B6B
 
@@ -236,25 +236,25 @@ graph TD
 
 ```mermaid
 graph TD
-    R3["#32"]:::upnext
+    R3["#32"]:::inprogress
 
     R3A["#33"]:::backlog
-    R3B["#36"]:::upnext
-    R3C["#42"]:::upnext
+    R3B["#36"]:::inprogress
+    R3C["#42"]:::done
     R3 --> R3A & R3B & R3C
 
     R3A1["#34"]:::backlog
-    R3A2["#35"]:::backlog
+    R3A2["#35"]:::done
     R3A --> R3A1 & R3A2
 
-    R3B1["#37"]:::upnext
+    R3B1["#37"]:::inprogress
     R3B2["#38"]:::backlog
     R3B3["#39"]:::backlog
-    R3B4["#40"]:::upnext
+    R3B4["#40"]:::inprogress
     R3B5["#41"]:::backlog
     R3B --> R3B1 & R3B2 & R3B3 & R3B4 & R3B5
 
-    R3C1["#43"]:::upnext
+    R3C1["#43"]:::inprogress
     R3C --> R3C1
 
     click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
@@ -312,7 +312,7 @@ graph TD
 graph TD
     R5["#49"]:::backlog
 
-    R5A["#50"]:::backlog
+    R5A["#50"]:::done
     R5B["#51"]:::backlog
     R5C["#67"]:::backlog
     R5D["#70"]:::backlog
@@ -328,15 +328,15 @@ graph TD
     R5B8["#59"]:::backlog
     R5B9["#60"]:::backlog
     R5B10["#61"]:::backlog
-    R5B11["#62"]:::backlog
-    R5B12["#63"]:::backlog
+    R5B11["#62"]:::stable
+    R5B12["#63"]:::stable
     R5B13["#64"]:::backlog
     R5B14["#65"]:::backlog
     R5B15["#66"]:::backlog
     R5B --> R5B1 & R5B2 & R5B3 & R5B4 & R5B5 & R5B6 & R5B7 & R5B8
     R5B --> R5B9 & R5B10 & R5B11 & R5B12 & R5B13 & R5B14 & R5B15
 
-    R5C1["#68"]:::backlog
+    R5C1["#68"]:::stable
     R5C2["#69"]:::backlog
     R5C --> R5C1 & R5C2
 
@@ -377,7 +377,7 @@ graph TD
 graph TD
     R6["#72"]:::backlog
 
-    R6A["#73"]:::backlog
+    R6A["#73"]:::done
     R6B["#74"]:::backlog
     R6C["#75"]:::backlog
     R6D["#76"]:::backlog
@@ -447,7 +447,7 @@ graph TD
     R7B["#96"]:::backlog
     R7C["#97"]:::backlog
     R7D["#98"]:::backlog
-    R7E["#99"]:::inprogress
+    R7E["#99"]:::stable
     R7 --> R7A & R7B & R7C & R7D & R7E
 
     R7A1["#100"]:::backlog
