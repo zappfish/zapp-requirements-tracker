@@ -454,6 +454,14 @@ graph TD
     R7A2["#101"]:::backlog
     R7A --> R7A1 & R7A2
 
+    R7E1["#103"]:::done
+    R7E2["#104"]:::done
+    R7E3["#105"]:::done
+    R7E4["#106"]:::done
+    R7E5["#107"]:::done
+    R7E6["#108"]:::done
+    R7E --> R7E1 & R7E2 & R7E3 & R7E4 & R7E5 & R7E6
+
     click R7 href "https://github.com/zappfish/zapp-requirements-tracker/issues/94" _blank
     click R7A href "https://github.com/zappfish/zapp-requirements-tracker/issues/95" _blank
     click R7B href "https://github.com/zappfish/zapp-requirements-tracker/issues/96" _blank
@@ -462,6 +470,12 @@ graph TD
     click R7E href "https://github.com/zappfish/zapp-requirements-tracker/issues/99" _blank
     click R7A1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/100" _blank
     click R7A2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/101" _blank
+    click R7E1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/103" _blank
+    click R7E2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/104" _blank
+    click R7E3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/105" _blank
+    click R7E4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/106" _blank
+    click R7E5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/107" _blank
+    click R7E6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/108" _blank
 
     classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
