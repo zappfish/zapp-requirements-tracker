@@ -35,8 +35,8 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
     <tr><td>1</td><td>February 18, 2026</td><td>March 3, 2026</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>11.5–15</td></tr>
     <tr><td>2</td><td>March 4, 2026</td><td>March 17, 2026</td><td>2</td><td>4</td><td>5</td><td>0</td><td>1</td><td>21–30</td></tr>
     <tr><td>3</td><td>March 18, 2026</td><td>March 31, 2026</td><td>2</td><td>3</td><td>1</td><td>0</td><td>1</td><td>12–18</td></tr>
-    <tr><td>4</td><td>April 1, 2026</td><td>April 14, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>5</td><td>April 15, 2026</td><td>April 28, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>4</td><td>April 1, 2026</td><td>April 14, 2026</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+    <tr><td>5</td><td>April 15, 2026</td><td>April 28, 2026</td><td>0</td><td>2</td><td>3</td><td>2</td><td>1</td><td>22-31</td></tr>
     <tr><td>6</td><td>April 29, 2026</td><td>May 12, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
     <tr><td>7</td><td>May 13, 2026</td><td>May 26, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
     <tr><td colspan="9"><strong>Priority 1 Requirements Done / Priority 2 Requirements Start</strong></td></tr>
@@ -52,5 +52,5 @@ xychart-beta
     title "Iteration Velocity Over Time"
     x-axis "Iteration" ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     y-axis "Velocity" 0 --> 30
-    bar [13.25, 25.5, 15, 0, 0, 0, 0, 0, 0]
+    bar [13.25, 25.5, 15, 1, 26.5, 0, 0, 0, 0]
 ```
