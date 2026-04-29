@@ -3,8 +3,8 @@
 _Source: [ZAPP Requirements Project Board, Priority 1 View](https://github.com/orgs/zappfish/projects/2/views/15)_
 _Generated: 2026-04-29_
 
-**Project work initiated:** January 30, 2026
-**Completed ticket date range:** March 25, 2026 – April 22, 2026
+**Project work initiated:** January 30, 2026<br>
+**Completed ticket date range:** March 25, 2026 – April 22, 2026<br>
 **In-progress tickets expected complete by:** June 1, 2026
 
 ---
