@@ -14,7 +14,6 @@ All actual project work should live in the appropriate repository such as:
 
 - https://github.com/zappfish/frogpot
 - https://github.com/zappfish/phenotype-picker
-- https://github.com/zappfish/zebrafish-toxicology-atlas-schema
 - https://github.com/zappfish/zapp-atlas
 - https://github.com/zappfish/zappfish.github.io
 
