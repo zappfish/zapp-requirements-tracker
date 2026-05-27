@@ -135,7 +135,7 @@ graph TD
     R1["#16"]:::inprogress
 
     R1A["#17"]:::stable
-    R1B["#26"]:::backlog
+    R1B["#26"]:::upnext
     R1 --> R1A & R1B
 
     R1A1["#18"]:::stable
@@ -144,15 +144,15 @@ graph TD
     R1A4["#21"]:::stable
     R1A5["#22"]:::stable
     R1A6["#23"]:::stable
-    R1A7["#24"]:::inprogress
-    R1A8["#25"]:::inprogress
+    R1A7["#24"]:::stable
+    R1A8["#25"]:::stable
     R1A --> R1A1 & R1A2 & R1A3 & R1A4 & R1A5 & R1A6 & R1A7 & R1A8
 
-    R1B1["#27"]:::backlog
-    R1B2["#28"]:::backlog
-    R1B3["#29"]:::backlog
-    R1B4["#30"]:::backlog
-    R1B5["#31"]:::backlog
+    R1B1["#27"]:::upnext
+    R1B2["#28"]:::upnext
+    R1B3["#29"]:::upnext
+    R1B4["#30"]:::upnext
+    R1B5["#31"]:::upnext
     R1B --> R1B1 & R1B2 & R1B3 & R1B4 & R1B5
 
     click R1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/16" _blank
@@ -186,17 +186,17 @@ graph TD
 graph TD
     R2["#15"]:::inprogress
 
-    R2A["#1"]:::upnext
-    R2B["#6"]:::backlog
+    R2A["#1"]:::inreview
+    R2B["#6"]:::inprogress
     R2 --> R2A & R2B
 
-    R2A1["#2"]:::inprogress
-    R2A2["#3"]:::upnext
+    R2A1["#2"]:::inreview
+    R2A2["#3"]:::inreview
     R2A3["#4"]:::backlog
     R2A4["#5"]:::stable
     R2A --> R2A1 & R2A2 & R2A3 & R2A4
 
-    R2B1["#7"]:::inprogress
+    R2B1["#7"]:::stable
     R2B2["#8"]:::stable
     R2B3["#9"]:::stable
     R2B4["#10"]:::stable
@@ -204,7 +204,7 @@ graph TD
     R2B6["#12"]:::backlog
     R2B --> R2B1 & R2B2 & R2B3 & R2B4 & R2B5 & R2B6
 
-    R2B6A["#13"]:::upnext
+    R2B6A["#13"]:::stable
     R2B6B["#14"]:::backlog
     R2B6 --> R2B6A & R2B6B
 
@@ -238,23 +238,23 @@ graph TD
 graph TD
     R3["#32"]:::inprogress
 
-    R3A["#33"]:::backlog
-    R3B["#36"]:::inprogress
+    R3A["#33"]:::inprogress
+    R3B["#36"]:::stable
     R3C["#42"]:::done
     R3 --> R3A & R3B & R3C
 
-    R3A1["#34"]:::backlog
+    R3A1["#34"]:::inprogress
     R3A2["#35"]:::done
     R3A --> R3A1 & R3A2
 
-    R3B1["#37"]:::inprogress
-    R3B2["#38"]:::backlog
+    R3B1["#37"]:::stable
+    R3B2["#38"]:::inprogress
     R3B3["#39"]:::backlog
-    R3B4["#40"]:::inprogress
+    R3B4["#40"]:::stable
     R3B5["#41"]:::backlog
     R3B --> R3B1 & R3B2 & R3B3 & R3B4 & R3B5
 
-    R3C1["#43"]:::inprogress
+    R3C1["#43"]:::done
     R3C --> R3C1
 
     click R3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/32" _blank
@@ -315,7 +315,7 @@ graph TD
     R5A["#50"]:::done
     R5B["#51"]:::backlog
     R5C["#67"]:::backlog
-    R5D["#70"]:::backlog
+    R5D["#70"]:::inprogress
     R5 --> R5A & R5B & R5C & R5D
 
     R5B1["#52"]:::backlog
@@ -378,19 +378,19 @@ graph TD
     R6["#72"]:::backlog
 
     R6A["#73"]:::done
-    R6B["#74"]:::backlog
-    R6C["#75"]:::backlog
-    R6D["#76"]:::backlog
-    R6E["#77"]:::backlog
+    R6B["#74"]:::inprogress
+    R6C["#75"]:::inprogress
+    R6D["#76"]:::inprogress
+    R6E["#77"]:::inprogress
     R6 --> R6A & R6B & R6C & R6D & R6E
 
-    R6C1["#78"]:::backlog
+    R6C1["#78"]:::inprogress
     R6C2["#79"]:::backlog
     R6C3["#80"]:::backlog
     R6C4["#81"]:::backlog
     R6C5["#82"]:::backlog
-    R6C6["#83"]:::backlog
-    R6C7["#84"]:::backlog
+    R6C6["#83"]:::inprogress
+    R6C7["#84"]:::inprogress
     R6C --> R6C1 & R6C2 & R6C3 & R6C4 & R6C5 & R6C6 & R6C7
 
     R6D1["#85"]:::backlog
@@ -444,13 +444,13 @@ graph TD
     R7["#94"]:::inprogress
 
     R7A["#95"]:::backlog
-    R7B["#96"]:::backlog
-    R7C["#97"]:::backlog
-    R7D["#98"]:::backlog
+    R7B["#96"]:::stable
+    R7C["#97"]:::stable
+    R7D["#98"]:::done
     R7E["#99"]:::stable
     R7 --> R7A & R7B & R7C & R7D & R7E
 
-    R7A1["#100"]:::backlog
+    R7A1["#100"]:::inprogress
     R7A2["#101"]:::backlog
     R7A --> R7A1 & R7A2
 
