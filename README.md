@@ -119,12 +119,12 @@ While critical for project success, the _Governace_ and _Project Website_ are no
 graph LR
     B["Backlog"]:::backlog ~~~ U["Up Next"]:::upnext ~~~ I["In Progress"]:::inprogress ~~~ R["In Review"]:::inreview ~~~ S["Stable"]:::stable ~~~ D["Done"]:::done
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 
@@ -172,12 +172,12 @@ graph TD
     click R1B4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/30" _blank
     click R1B5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/31" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 2: Ontologies / External IDs
@@ -224,12 +224,12 @@ graph TD
     click R2B6A href "https://github.com/zappfish/zapp-requirements-tracker/issues/13" _blank
     click R2B6B href "https://github.com/zappfish/zapp-requirements-tracker/issues/14" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 3: Data Storage / Retrieval
@@ -270,12 +270,12 @@ graph TD
     click R3B5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/41" _blank
     click R3C1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/43" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 4: Publish Data
@@ -298,12 +298,12 @@ graph TD
     click R4B1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/47" _blank
     click R4B2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/48" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 5: Data Input / Submission
@@ -363,12 +363,12 @@ graph TD
     click R5C1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/68" _blank
     click R5C2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/69" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 6: Atlas / Atlas UI
@@ -429,12 +429,12 @@ graph TD
     click R6E3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/92" _blank
     click R6E4 href "https://github.com/zappfish/zapp-requirements-tracker/issues/93" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 #### 7: Governance
@@ -477,12 +477,12 @@ graph TD
     click R7E5 href "https://github.com/zappfish/zapp-requirements-tracker/issues/107" _blank
     click R7E6 href "https://github.com/zappfish/zapp-requirements-tracker/issues/108" _blank
 
-    classDef backlog fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef backlog fill:#bf3989,stroke:#99306f,color:#fff
     classDef upnext fill:#0969da,stroke:#0550ae,color:#fff
     classDef inprogress fill:#bf8700,stroke:#9a6700,color:#fff
     classDef inreview fill:#8250df,stroke:#6639ba,color:#fff
-    classDef stable fill:#bf3989,stroke:#99306f,color:#fff
-    classDef done fill:#bc4c00,stroke:#953800,color:#fff
+    classDef stable fill:#2da44e,stroke:#1a7f37,color:#fff
+    classDef done fill:#2da44e,stroke:#1a7f37,color:#fff
 ```
 
 ---
