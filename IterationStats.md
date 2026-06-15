@@ -15,6 +15,7 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
 |M | 2-3 days|
 |L | 4-5 days|
 |XL | 6-10 days|
+|XXL | 10+ days|
 
 ## Iteration Stats and Approximate Velocity
 <table>
@@ -28,20 +29,27 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
       <th>M</th>
       <th>L</th>
       <th>XL</th>
+      <th>XXL</th>
       <th>~ Velocity (days)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>February 18, 2026</td><td>March 3, 2026</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>11.5–15</td></tr>
-    <tr><td>2</td><td>March 4, 2026</td><td>March 17, 2026</td><td>2</td><td>4</td><td>5</td><td>0</td><td>1</td><td>21–30</td></tr>
-    <tr><td>3</td><td>March 18, 2026</td><td>March 31, 2026</td><td>2</td><td>3</td><td>1</td><td>0</td><td>1</td><td>12–18</td></tr>
-    <tr><td>4</td><td>April 1, 2026</td><td>April 14, 2026</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
-    <tr><td>5</td><td>April 15, 2026</td><td>April 28, 2026</td><td>0</td><td>2</td><td>3</td><td>2</td><td>1</td><td>22-31</td></tr>
-    <tr><td>6</td><td>April 29, 2026</td><td>May 12, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>7</td><td>May 13, 2026</td><td>May 26, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td colspan="9"><strong>Priority 1 Requirements Done / Priority 2 Requirements Start</strong></td></tr>
-    <tr><td>8</td><td>May 27, 2026</td><td>June 9, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>9</td><td>June 10, 2026</td><td>June 23, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>February 18, 2026</td><td>March 3, 2026</td><td>1</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>11.5–15</td></tr>
+    <tr><td>2</td><td>March 4, 2026</td><td>March 17, 2026</td><td>2</td><td>3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>14–20</td></tr>
+    <tr><td>3</td><td>March 18, 2026</td><td>March 31, 2026</td><td>2</td><td>3</td><td>1</td><td>0</td><td>1</td><td>0</td><td>12–18</td></tr>
+    <tr><td>4</td><td>April 1, 2026</td><td>April 14, 2026</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+    <tr><td>5</td><td>April 15, 2026</td><td>April 28, 2026</td><td>2</td><td>2</td><td>3</td><td>1</td><td>0</td><td>1</td><td>23+</td></tr>
+    <tr><td>6</td><td>April 29, 2026</td><td>May 12, 2026</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>10–15</td></tr>
+    <tr><td>7</td><td>May 13, 2026</td><td>May 26, 2026</td><td>2</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>11–14</td></tr>
+    <tr><td colspan="10"><strong>Priority 1 Requirements Done / Priority 2 Requirements Start</strong></td></tr>
+    <tr><td>8</td><td>May 27, 2026</td><td>June 9, 2026</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>4.5–7</td></tr>
+    <tr><td>9</td><td>June 10, 2026</td><td>June 23, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>10</td><td>June 24, 2026</td><td>July 7, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>11</td><td>July 8, 2026</td><td>July 21, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>12</td><td>July 22, 2026</td><td>August 4, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>13</td><td>August 5, 2026</td><td>August 18, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>14</td><td>August 19, 2026</td><td>September 1, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>15</td><td>September 2, 2026</td><td>September 15, 2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
   </tbody>
 </table>
 
@@ -50,7 +58,7 @@ The ZAPP Developer and Curation team work in two week iterations. You can see th
 ```mermaid
 xychart-beta
     title "Iteration Velocity Over Time"
-    x-axis "Iteration" ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    x-axis "Iteration" ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
     y-axis "Velocity" 0 --> 30
-    bar [13.25, 25.5, 15, 1, 26.5, 0, 0, 0, 0]
+    bar [13.25, 17, 15, 1, 23, 12.5, 12.5, 5.75, 0, 0, 0, 0, 0, 0, 0]
 ```
