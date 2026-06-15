@@ -1,7 +1,7 @@
 # ZAPP Requirements - Priority 1 Summary
 
 _Source: [ZAPP Requirements Project Board, Priority 1 View](https://github.com/orgs/zappfish/projects/2/views/15)_
-_Generated: 2026-05-27_
+_Generated: 2026-06-15_
 
 **Project work initiated:** January 30, 2026<br>
 **Completed ticket date range:** March 25, 2026 – May 13, 2026<br>
@@ -34,6 +34,7 @@ _Generated: 2026-05-27_
 | 2.B.2 | [Prepare ECTO for exposure regimen, type, route, etc.](https://github.com/zappfish/zapp-requirements-tracker/issues/8) | Stable |
 | 2.B.3 | [Prepare ZFA for filtering/searching in Atlas and Ontology Picker](https://github.com/zappfish/zapp-requirements-tracker/issues/9) | Stable |
 | 2.B.4 | [Prepare ZFS to describe stages for phenotypes and experiments](https://github.com/zappfish/zapp-requirements-tracker/issues/10) | Stable |
+| 2.B.5 | [Determine any requirements to use PMID for provenance of the submission information](https://github.com/zappfish/zapp-requirements-tracker/issues/11) | Stable |
 | 2.B.6.a | [Types](https://github.com/zappfish/zapp-requirements-tracker/issues/13) | Stable |
 
 ### 3. Infrastructure
@@ -61,7 +62,7 @@ _Generated: 2026-05-27_
 
 ---
 
-## In Progress
+## In Review
 
 ### 2. Ontologies
 
@@ -70,8 +71,7 @@ _Generated: 2026-05-27_
 | 2.A | [ZP](https://github.com/zappfish/zapp-requirements-tracker/issues/1) | In review |
 | 2.A.1 | [ZP-ZAPP Quality Control](https://github.com/zappfish/zapp-requirements-tracker/issues/2) | In review |
 | 2.A.2 | [Amendment processes - synonyms, preferred labels, new submissions](https://github.com/zappfish/zapp-requirements-tracker/issues/3) | In review |
-| 2.B.5 | [Determine any requirements to use PMID for provenance of the submission information](https://github.com/zappfish/zapp-requirements-tracker/issues/11) | Up Next |
 
 ---
 
-**Summary:** 28 tickets completed (Done/Stable) + 4 tickets in progress = **32 of 32 P1 tickets**
+**Summary:** 29 tickets completed (Done/Stable) + 3 tickets in review = **32 of 32 P1 tickets**

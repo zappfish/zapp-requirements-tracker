@@ -134,7 +134,7 @@ graph TD
     R1["#16"]:::inprogress
 
     R1A["#17"]:::stable
-    R1B["#26"]:::upnext
+    R1B["#26"]:::inprogress
     R1 --> R1A & R1B
 
     R1A1["#18"]:::stable
@@ -150,7 +150,7 @@ graph TD
     R1B1["#27"]:::upnext
     R1B2["#28"]:::upnext
     R1B3["#29"]:::upnext
-    R1B4["#30"]:::upnext
+    R1B4["#30"]:::stable
     R1B5["#31"]:::upnext
     R1B --> R1B1 & R1B2 & R1B3 & R1B4 & R1B5
 
@@ -199,7 +199,7 @@ graph TD
     R2B2["#8"]:::stable
     R2B3["#9"]:::stable
     R2B4["#10"]:::stable
-    R2B5["#11"]:::upnext
+    R2B5["#11"]:::stable
     R2B6["#12"]:::backlog
     R2B --> R2B1 & R2B2 & R2B3 & R2B4 & R2B5 & R2B6
 
@@ -237,12 +237,12 @@ graph TD
 graph TD
     R3["#32"]:::inprogress
 
-    R3A["#33"]:::inprogress
+    R3A["#33"]:::done
     R3B["#36"]:::stable
     R3C["#42"]:::done
     R3 --> R3A & R3B & R3C
 
-    R3A1["#34"]:::inprogress
+    R3A1["#34"]:::done
     R3A2["#35"]:::done
     R3A --> R3A1 & R3A2
 
@@ -451,7 +451,8 @@ graph TD
 
     R7A1["#100"]:::inprogress
     R7A2["#101"]:::backlog
-    R7A --> R7A1 & R7A2
+    R7A3["#102"]:::backlog
+    R7A --> R7A1 & R7A2 & R7A3
 
     R7E1["#103"]:::done
     R7E2["#104"]:::done
@@ -469,6 +470,7 @@ graph TD
     click R7E href "https://github.com/zappfish/zapp-requirements-tracker/issues/99" _blank
     click R7A1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/100" _blank
     click R7A2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/101" _blank
+    click R7A3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/102" _blank
     click R7E1 href "https://github.com/zappfish/zapp-requirements-tracker/issues/103" _blank
     click R7E2 href "https://github.com/zappfish/zapp-requirements-tracker/issues/104" _blank
     click R7E3 href "https://github.com/zappfish/zapp-requirements-tracker/issues/105" _blank
